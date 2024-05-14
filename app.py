@@ -11,7 +11,9 @@ from sklearn.metrics import precision_score, recall_score
 #----avinash---
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay,RocCurveDisplay,PrecisionRecallDisplay
 from sklearn import preprocessing 
-from sklearn.metrics import precision_score, recall_score , accuracy_score 
+from sklearn.metrics import precision_score, recall_score , accuracy_score
+import warnings
+warnings.filterwarnings("warnings")
 
 def main():
 	st.title("Model Develope to rank applications for nursery schools")
